@@ -5,8 +5,8 @@
 // when r === 6
 // the next day has to be sun
 
-var ary = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 var nextX = function (x) {
+    var ary = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     var result;
     var r = ary.indexOf(x);
     if (r === 6) {
